@@ -1,8 +1,8 @@
-import { ThemeProvider } from "styled-components";
-import { TransactionsProvider } from "./contexts/TransactionContext";
-import { Transactions } from "./pages/Transactions";
-import { GlobalStyle } from "./styles/global";
-import { defaultTheme } from "./styles/themes/defaultTheme";
+import { ThemeProvider } from 'styled-components'
+import { TransactionsProvider } from './contexts/TransactionContext'
+import { Transactions } from './pages/Transactions'
+import { GlobalStyle } from './styles/global'
+import { defaultTheme } from './styles/themes/defaultTheme'
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Transactions />
       </TransactionsProvider>
     </ThemeProvider>
-  );
+  )
 }
 
-export default App;
+export default App
